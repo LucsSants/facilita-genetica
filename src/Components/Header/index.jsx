@@ -1,7 +1,6 @@
 import React from 'react'
 import './index.css'
 import logo from '../../assets/logo2.png'
-import logoAges from '../../assets/agesLogo.png'
 function Header() {
 
   return (
@@ -13,8 +12,6 @@ function Header() {
           </h1>
         </a>
       </div>
-
-    
       
     
   )

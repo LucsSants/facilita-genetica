@@ -11,13 +11,11 @@
   margin-bottom: 1.5rem;
 }
 
-.space {
-  width: 4.3rem;
-}
 
 .link {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .header-content {

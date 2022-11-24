@@ -1,6 +1,7 @@
 import React from 'react'
 import MainContainer from '../../Components/MainConteiner'
 import './index.css'
+import {Link} from 'react-router-dom'
 import img from '../../assets/logo2.png'
 function Home() {
   return (
@@ -17,6 +18,11 @@ function Home() {
         <p className='description'>
           &nbsp; Os assuntos dentro de Genética está dividido entre 11 módulos, e em cada módulo você terá acesso a explicações para logo em seguida vim um quiz avaliativo para você responder.
         </p>
+        <br/>
+
+        <p className='description-bold'>
+          Bons Estudos!
+        </p>
       </MainContainer>
 
       <MainContainer>
@@ -26,37 +32,37 @@ function Home() {
 
         <ol>
          <li>
-          <a href="">DNA e RNA</a>
+          <Link to={'/dna'}>DNA e RNA</Link>
          </li>
          <li>
-          <a href="">SÍNTESE PROTEICA</a>
+          <Link href="">SÍNTESE PROTEICA</Link>
          </li>
          <li>
-          <a href="">CICLO CELULAR</a>
+          <Link href="">CICLO CELULAR</Link>
          </li>
          <li>
-          <a href="">LEIS DE MENDEL</a>
+          <Link href="">LEIS DE MENDEL</Link>
          </li>
          <li>
-          <a href="">GENES</a>
+          <Link href="">GENES</Link>
          </li>
          <li>
-          <a href="">GENÓTIPO E FENÓTIPO</a>
+          <Link href="">GENÓTIPO E FENÓTIPO</Link>
          </li>
          <li>
-          <a href="">CROMOSSOMOS</a>
+          <Link href="">CROMOSSOMOS</Link>
          </li>
          <li>
-          <a href="">MUTAÇÃO GENÉTICA</a>
+          <Link href="">MUTAÇÃO GENÉTICA</Link>
          </li>
          <li>
-          <a href="">HERANÇA GENÉTICA</a>
+          <Link href="">HERANÇA GENÉTICA</Link>
          </li>
          <li>
-          <a href="">SÍNDROME/DEONÇAS GENÉTICAS</a>
+          <Link href="">SÍNDROME/DEONÇAS GENÉTICAS</Link>
          </li>
          <li>
-          <a href="">GRUPOS SANGUINEOS E O FATOR RH</a>
+          <Link href="">GRUPOS SANGUINEOS E O FATOR RH</Link>
          </li>
 
         </ol>

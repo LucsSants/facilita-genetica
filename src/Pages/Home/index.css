@@ -5,6 +5,13 @@
   text-align: center;
 }
 
+.description-bold {
+  font-size: 15;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
 .big-logo{
   width: 9rem;
   margin-bottom: 0.5rem;
@@ -19,11 +26,13 @@
 
 .lista ol a{
   color: #0094B5;
-  font-size: large
- ;
+  font-size: large;
+  text-align: center;
+
 }
 
 .lista ol li {
   margin-bottom: .5rem;
   color: #619AA6;
+ 
 }
