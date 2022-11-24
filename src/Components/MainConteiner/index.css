@@ -1,0 +1,27 @@
+.container {
+  width: 92%;
+  padding: 3rem;
+  background-color: white;
+  margin-top: 1rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 475px) {
+  .container {
+    width: 92%;
+    padding: 2rem 1rem;
+    background-color: white;
+    margin-top: 1rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+}

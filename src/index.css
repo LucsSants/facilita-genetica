@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+
+body,
+html {
+  min-height: 100vh;
+  height: 100%;
+  background-color: #EEEEEE;
+  max-width: 100vw;
+}
+

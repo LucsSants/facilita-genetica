@@ -1,0 +1,23 @@
+footer {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  margin-top: 50px;
+  bottom: 0;
+  left: 0;
+  position: relative;
+}
+
+footer img {
+  width: 100px;
+ 
+}
+
+footer p {
+  color: #828282;
+  font-size: .8rem;
+}

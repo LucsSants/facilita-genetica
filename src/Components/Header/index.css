@@ -1,0 +1,41 @@
+.header {
+  background-color: #FAFAFA;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: .5rem .3rem;
+  
+  border-radius: 0 0 20px 20px;
+  margin-bottom: 1.5rem;
+}
+
+.space {
+  width: 4.3rem;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  
+  gap: 2px;
+}
+
+.logo {
+  width: 4.3rem;
+}
+
+.header-title {
+  color: #09793D;
+  font-size: 1.2rem;
+}
+
+
+
+

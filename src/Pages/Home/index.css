@@ -1,0 +1,29 @@
+.description{
+  font-size: 15;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+}
+
+.big-logo{
+  width: 9rem;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #09793D;
+  font-weight: 400;
+  margin-bottom: 0.9rem;
+}
+
+.lista ol a{
+  color: #0094B5;
+  font-size: large
+ ;
+}
+
+.lista ol li {
+  margin-bottom: .5rem;
+  color: #619AA6;
+}
