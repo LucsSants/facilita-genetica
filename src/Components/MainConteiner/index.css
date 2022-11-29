@@ -1,6 +1,6 @@
 .container {
   width: 92%;
-  padding: 3rem;
+  padding: 2rem;
   background-color: white;
   margin-top: 1rem;
   margin: auto;
@@ -16,7 +16,7 @@
 @media (max-width: 475px) {
   .container {
     width: 92%;
-    padding: 2rem;
+    padding: 1rem;
     background-color: white;
     margin-top: 1rem;
     margin: auto;

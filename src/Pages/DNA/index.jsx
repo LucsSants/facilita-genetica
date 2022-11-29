@@ -7,6 +7,7 @@ import dna3 from '../../assets/DNA/dna3.png'
 import dna4 from '../../assets/DNA/dna4.png'
 import dna5 from '../../assets/DNA/dna5.png'
 import dna6 from '../../assets/DNA/dna6.png'
+import Quiz from '../../Components/Quiz/Quiz'
 function DNA() {
   return (
     <>
@@ -89,6 +90,11 @@ function DNA() {
         pelo processo de transcrição.</li>
         <img src={dna6} alt="" className='file-img'/>
     
+    </MainContainer>
+
+    <MainContainer>
+      <h1 className='title'>Quiz DNA e RNA</h1>
+      <Quiz category={"DNA"}/>
     </MainContainer>
       
     </>

@@ -1,0 +1,40 @@
+.option {
+  background-color: #AEAEAE;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  opacity: 0.9;
+  transition: 0.4s;
+ 
+}
+
+.option:hover {
+  opacity: 1;
+}
+
+#options-container .option p {
+  margin-bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.correct {
+  background-color: #0bfc03;
+  font-weight: bold;
+}
+
+.wrong {
+  pointer-events: none;
+  background-color: #AEAEAE;
+  opacity: 0.5;
+}
+
+.wrong-selected {
+  background-color: red;
+}
+.hide {
+  display: none;
+}

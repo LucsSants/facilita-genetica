@@ -1,0 +1,36 @@
+#question {
+  border-radius: 1rem;
+  padding: 0.2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#options-container {
+  width: 90%;
+}
+
+#question p {
+  margin-bottom: 1rem;
+}
+
+#question h2 {
+  margin-bottom: 2rem;
+}
+
+#question button {
+  align-items: center;
+  border: 2px solid #fff;
+  margin: 1rem;
+}
+
+@media (max-width: 475px) {
+  #question h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+}
+
+
