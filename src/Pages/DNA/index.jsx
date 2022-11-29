@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import MainContainer from '../../Components/MainConteiner'
 import './index.css'
 import dna1 from '../../assets/DNA/dna1.png'
@@ -9,6 +9,10 @@ import dna5 from '../../assets/DNA/dna5.png'
 import dna6 from '../../assets/DNA/dna6.png'
 import Quiz from '../../Components/Quiz/Quiz'
 function DNA() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
     <MainContainer >
