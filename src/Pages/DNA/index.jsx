@@ -1,12 +1,6 @@
 import React, { useEffect } from 'react'
 import MainContainer from '../../Components/MainConteiner'
 import './index.css'
-import dna1 from '../../assets/DNA/dna1.png'
-import dna2 from '../../assets/DNA/dna2.png'
-import dna3 from '../../assets/DNA/dna3.png'
-import dna4 from '../../assets/DNA/dna4.png'
-import dna5 from '../../assets/DNA/dna5.png'
-import dna6 from '../../assets/DNA/dna6.png'
 import Quiz from '../../Components/Quiz/Quiz'
 function DNA() {
 
@@ -17,8 +11,6 @@ function DNA() {
     <>
     <MainContainer >
         <h1 className='title'>DNA e RNA</h1>
-      
-
         <p>
         &nbsp;&nbsp;O DNA apresenta uma dupla-hélice e é formado por nucleotídeos que é dividido em três partes:
         </p>
@@ -27,7 +19,7 @@ function DNA() {
           <li>uma base nitrogenada</li>
           <li>um ou mais grupo fosfato</li>
         </ul>
-      <img src={dna1} alt="" className='file-img'/>
+      <img src="https://static.significados.com.br/foto/ponte-de-hidrogenio-1.png" alt="" className='file-img'/>
       <p>
       &nbsp;&nbsp;As bases nitrogenada possuem anéis que contém átomos de nitrogênio é sai classificadas em dois
       grupos: pirimidinas é purinas. 
@@ -41,13 +33,13 @@ function DNA() {
           <li>citosina (C), timina (T) que são pirimidinas. </li>
           <li>adenina (A), guanina (G) que são purinas</li>
         </ul>
-        <img src={dna2} alt="" className='file-img'/>
-        <img src={dna3} alt="" className='file-img'/>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Bases_nitrogenadas.png/800px-Bases_nitrogenadas.png" alt="" className='file-img'/>
+        <img src="https://blogdoenem.com.br/wp-content/uploads/2013/10/RNA-Biologia.jpg" alt="" className='file-img'/>
         <p>
         &nbsp;&nbsp;O DNA contêm duas fitas que são constituídas por vários nucleotídeos, esses nucleotídeos se
         ligam uns aos outros através da ligação fosfodiéster. 
         </p>
-        <img src={dna4} alt="" className='file-img'/>
+        <img src="http://coral.ufsm.br/blg220/hide/acnucl4.jpg" alt="" className='file-img'/>
         <p>
         &nbsp;&nbsp;A junção dos nucleotídeos forma uma sequência com repetição na unidade de açúcar-fosfato
         formando a cadeia principal que são ligadas às bases nitrogenadas. Essas ligações acontece entre
@@ -81,7 +73,7 @@ function DNA() {
           <li>adenina (A), guanina (G) que são purinas.</li>
           <li>citosina (C), uracila (U) que são pirimidinas.</li>
         </p>
-        <img src={dna5} alt="" className='file-img'/>
+        <img src="image.png" alt="" className='file-img'/>
 
         <p>Tipos de RNA:</p>
         <li>RNA ribossômico (RNAr)= principal responsável pela síntese de proteínas. </li>
@@ -92,7 +84,7 @@ function DNA() {
         Unidas formam as proteínas</li>
         <li>RNA polimerase= é o nome da enzima que auxilia na canalização da síntese do RNA, é formada
         pelo processo de transcrição.</li>
-        <img src={dna6} alt="" className='file-img'/>
+        <img src="https://pt-static.z-dn.net/files/def/72bea540b25c1f1a4d24a8cadb79969a.jpg" alt="" className='file-img'/>
     
     </MainContainer>
 
