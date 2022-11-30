@@ -38,7 +38,7 @@ function Home() {
           <Link to={'/sintese-proteica'}>SÍNTESE PROTEICA</Link>
          </li>
          <li>
-          <Link href="">CICLO CELULAR</Link>
+          <Link to={'/ciclo'}>CICLO CELULAR</Link>
          </li>
          <li>
           <Link href="">LEIS DE MENDEL</Link>
@@ -53,16 +53,16 @@ function Home() {
           <Link to={'/cromossomos'}>CROMOSSOMOS</Link>
          </li>
          <li>
-          <Link href="">MUTAÇÃO GENÉTICA</Link>
+          <Link to={'/mutacao-genteica'}>MUTAÇÃO GENÉTICA</Link>
          </li>
          <li>
-          <Link href="">HERANÇA GENÉTICA</Link>
+          <Link to={'/heranca-genetica'}>HERANÇA GENÉTICA</Link>
          </li>
          <li>
-          <Link href="">SÍNDROME/DEONÇAS GENÉTICAS</Link>
+          <Link to={'/doencas-geneticas'}>SÍNDROME/DEONÇAS GENÉTICAS</Link>
          </li>
          <li>
-          <Link href="">GRUPOS SANGUINEOS E O FATOR RH</Link>
+          <Link to={'/grupos-sanguineos'}>GRUPOS SANGUINEOS E O FATOR RH</Link>
          </li>
 
         </ol>

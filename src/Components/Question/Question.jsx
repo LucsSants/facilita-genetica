@@ -24,6 +24,7 @@ const Question = () => {
         Pergunta {quizState.currentQuestion + 1} de {quizState.questions.length}
       </p>
       <h2>{currentQuestion.question}</h2>
+      {currentQuestion.link ? <img src={currentQuestion.link} className='file-img'></img> : ""}
       <div id="options-container">
         {currentQuestion.options.map((option) => (
           <Option

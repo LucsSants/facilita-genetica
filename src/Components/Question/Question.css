@@ -33,4 +33,18 @@
   }
 }
 
+.file-img {
+  height: 70%;
+  width: 70%;
+  
+}
+
+@media (max-width: 475px) {
+  .file-img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
 
