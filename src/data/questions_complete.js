@@ -379,6 +379,196 @@ const data = [
       
     ],
   },
+  {
+    category: "mendel",
+    questions: [
+      {
+        question: "(UFMT) Leia as afirmações abaixo relativas à transmissão dos caracteres na reprodução sexuada. I – Os caracteres são transmitidos dos pais para os filhos devido a informações contidas no sangue dos pais, que se concentram no esperma do homem e nas excreções vaginais da mulher. II – Os caracteres são transmitidos dos pais para os filhos devido a informações contidas no interior das células reprodutoras masculinas e femininas, chamadas gametas, que se unem na fecundação. III – Os cromossomos existem aos pares nas células e os genes ocupam um lugar definido no cromossomo, chamado locus gênico, assim, os genes também existem aos pares. Os pares de cromossomos semelhantes são chamados cromossomos homólogos, e os pares de genes que ocupam um mesmo locus nestes cromossomos são chamados genes alelos. Das afirmações acima está (estão) correta (s):",
+        options: [
+          "I, apenas",
+          "II e III, apenas",
+          "III, apenas",
+          "I, II e III",
+        ],
+        answer: "II e III, apenas",
+        explanation:"I – Os caracteres são transmitidos dos pais para os filhos devido a informações contidas no sangue dos pais, que se concentram no esperma do homem e nas excreções vaginais da mulher (FALSO- É NO ÓVULO NÃO NAS SECREÇÕES) ** II – Os caracteres são transmitidos dos pais para os filhos devido a informações contidas no interior das células reprodutoras masculinas e femininas, chamadas gametas, que se unem na fecundação. (VERDADEIRO) ** III – Os cromossomos existem aos pares nas células e os genes ocupam um lugar definido no cromossomo, chamado locus gênico, assim, os genes também existem aos pares. Os pares de cromossomos semelhantes são chamados cromossomos homólogos, e os pares de genes que ocupam um mesmo locus nestes cromossomos são chamados genes alelos. (VERDADEIRA)",
+      },
+      {
+        question: "Um estudante, ao iniciar o curso de Genética, anotou o seguinte: I. Cada caráter hereditário é determinado por um par de fatores e, como estes se separam na formação dos gametas, cada gameta recebe apenas um fator do par. II. Cada par de alelos presentes nas células diploides separa-se na meiose, de modo que cada célula haploide só recebe um alelo do par. III. Antes da divisão celular se iniciar, cada molécula de DNA se duplica e, na mitose, as duas moléculas resultantes se separam, indo para células diferentes. A primeira lei de Mendel está expressa em:",
+        options: [
+          " I, somente.", 
+          "II, somente.", 
+          "I e II, somente.", 
+          "II e III, somente.",
+          "I, II e III."
+      ],
+        answer: "I e II, somente.",
+        explanation:'As leis de Mendel são os princípios que estabelecem como ocorre a herança, ou seja, o processo de transmissão de características dos pais para os filhos. A primeira lei é chamada "princípio de uniformidade" estabelece que ao se cruzarem dois indivíduos de raça pura (homozigoto), a primeira geração filial (heterozigota) será a mesma entre eles (fenótipos e genótipos). Ou seja, essa lei estabelece como acontece a separação dos fatores hereditários durante a formação dos gametas, o qual está exemplificado nas asserções I e II',
+      },
+      {
+        question: "(UECE) Um dos conceitos utilizados para compreensão de genética diz que a propriedade de um alelo de produzir o mesmo fenótipo tanto em condição homozigótica como em condição heterozigótica é causada por um gene",
+        options: [
+          "homozigoto", 
+          "dominante", 
+          "recessivo", 
+          "autossomo",
+      ],
+        answer: "dominante",
+        explanation:'Aquele alelo que manifesta seu efeito tanto em condição homozigótica quanto em condição heterozigótica é o alelo dominante.',
+      },
+      {
+        question: "(Fuvest) Considere os seguintes cruzamentos para ervilha, sabendo que V representa o gene que determina cor amarela dos cotilédones e é dominante sobre o alelo v, que determina cor verde. (I. VV x vv) (II. Vv x Vv) (III. Vv x vv) -- Um pé de ervilha, heterozigoto e que, portanto, pode produzir vagens com sementes amarelas e com sementes verdes, pode resultar:",
+        options: [
+          "Apenas do cruzamento I.", 
+          "Apenas do cruzamento II.", 
+          "Apenas do cruzamento III.", 
+          "Apenas dos cruzamentos II e III.",
+          "Dos cruzamentos I, II e III.",
+      ],
+        answer: "Dos cruzamentos I, II e III.",
+        explanation:'No cruzamento I, temos VV x vv, dos quais temos a probabilidade de obter indivíduos 100% Vv. Já no cruzamento II, Vv x Vv, temos a probabilidade de 25% VV, 50% Vv e 25% vv. Por fim, no cruzamento III, Vv x vv, a probabilidade é de 50% Vv e 50% vv. Isso significa que em todos os cruzamentos podemos obter heterozigotos.',
+      },
+      
+    ],
+  },
+  {
+    category: "genes",
+    questions: [
+      {
+        question: "Onde podemos encontrar os genes?",
+        options: [
+          "Citoplasma",
+          "No ribossomo",
+          "No cromossomo",
+          "NdA",
+        ],
+        answer: "No cromossomo",
+        explanation:"Os genes estão dentro dos cromossomos, os quais seencontram no núcleo da célula.",
+      },
+      {
+        question: "As formas alternativas de um determinado gene são denominadas de?",
+        options: [
+          "Cromátides", 
+          "Fenótipo", 
+          "Uracila", 
+          "Alelos",
+      ],
+        answer: "Alelos",
+        explanation:'Os alelos são formas alternativas de um gene, que atuam sobre a mesma característica, ocupando loci correspondentes, em cromossomos homólogos. Os alelos atuam sobre a mesma característica, mas não são obrigatoriamente iguais.',
+      },
+      {
+        question: "Oque é um gene recessivo?",
+        options: [
+          "São aqueles que determinam uma característica hereditária mesmo quando em dose simples nos genótipo", 
+          "São aqueles que encontram-se escondidos quando em par com os genes dominantes.", 
+          "É responsável pelo controlo da transcrição dos genes estruturais. Quando o repressor, codificado pelo gene regulador, se liga ao operador, o promotor é bloqueado o que impede a transcrição.", 
+          "NdA",
+      ],
+        answer: "São aqueles que encontram-se escondidos quando em par com os genes dominantes.",
+        explanation:'Os genes recessivos são os ficam escondidos (recessivos) com a presença de um gene dominante manifestando suas características na ausência de seu alelo dominante.',
+      },
+      {
+        question: "Qual a função do gene?",
+        options: [
+          "É responsável pelas características herdadas geneticamente", 
+          "É responsável pela produção de Energia", 
+          "É responsável pela respiração celular", 
+          "Nda",
+      ],
+        answer: "É responsável pelas características herdadas geneticamente",
+        explanation:'Genes são porções de DNA que apresentam as informações necessárias para que ocorra a síntese de uma molécula de RNA mensageiro e consequentemente uma proteína. São eles, portanto, responsáveis por carregar as informações necessárias para que nossas características se expressem.',
+      },
+      {
+        question: "Os genes são fundamentais para a síntese de proteínas, funcionando como verdadeiros moldes para a determinação da sequência de aminoácidos que será produzida pela célula. Os genes podem ser definidos como:",
+        options: [
+          "um trecho do DNA.", 
+          "sequência de duas bases nitrogenadas.", 
+          "um trecho de RNA.", 
+          "o DNA condensado.",
+          "o DNA associado a proteínas histonas."
+      ],
+        answer: "um trecho do DNA.",
+        explanation:'Caso tenha errado: Os genes podem ser definidas como porções do DNA que serão usadas como moldes para a determinação da sequência de aminoácidos a ser sintetizada.',
+      },
+      
+    ],
+  },
+  {
+    category: "genofeno",
+    questions: [
+      {
+        question: "Onde podemos encontrar os genes?",
+        options: [
+          "gene.",
+          "fenótipo.",
+          "genótipo.",
+          "cariótipo.",
+          "heredograma.",
+        ],
+        answer: "fenótipo.",
+        explanation:"A tonalidade de pele foi alterada em razão dos fatores ambientais que afetaram o fenótipo do indivíduo. Nesse caso, o que ocorreu foi um aumento da produção de melanina em decorrência da exposição à radiação solar.",
+      },
+      {
+        question: "Qual a diferença entre o genótipo e o fenótipo?",
+        options: [
+          "A diferença é que o fenótipo faz parte do código genético, e o genótipo faz parte dos traços físicos.", 
+          "A diferença entre genótipo e fenótipo está no fato de que o genótipo se refere aos genes, e o fenótipo, às características físicas, morfológicas e comportamentais.", 
+          "A diferença são as características.", 
+          "A diferença é que o fenótipo é o DNA recebido dos pais, e o genótipo é influenciado pelo meio ambiente.",
+          "A diferença está nos comportamentos e características hereditárias que é influenciada pelo fenótipo.",
+      ],
+        answer: "A diferença entre genótipo e fenótipo está no fato de que o genótipo se refere aos genes, e o fenótipo, às características físicas, morfológicas e comportamentais.",
+        explanation:'genótipo se refere ao conjunto de genes, enquanto fenótipo diz respeito às características físicas de um indivíduo. Ao contrário do fenótipo, o genótipo de um organismo não pode ser modificado.A principal diferença está no fato de que o fenótipo sofre influência do meio, enquanto o genótipo não. Além disso, o fenótipo pode ser alterado temporariamente, enquanto o genótipo não. Uma forma de compreender na prática a diferença entre genótipo e fenótipo é usar o exemplo de uma mulher que nasceu com o cabelo preto, mas se tornou ruiva com o auxílio de tinturas. Ao pintar o cabelo de ruivo, essa mulher está alterando o fenótipo, porém, o genótipo permanece inalterado. A raiz do cabelo dessa mulher continuará nascendo com a cor preta (característica genética) independentemente de quantas vezes ela utilize a tintura ruiva.',
+      },
+      {
+        question: "(UFC) alguns estudos com gêmeos idênticos mostraram que o QI, a altura e os talentos artísticos podem ser diferentes entre esses indivíduos. A melhor explicação para essas diferenças é que:",
+        options: [
+          "A hereditariedade e o ambiente não possuem influência sobre a expressão dos fenótipos.", 
+          "O ambiente e os genes interagem no desenvolvimento e expressão das características herdadas.", 
+          "O genótipo dos gêmeos depende da interação da dieta e do controle hormonal.",
+          "As características QI, altura e talentos artísticos dependem apenas do ambiente.", 
+          "Os alelos responsáveis por essas características possuem efeitofenotípico múltiplo.",
+      ],
+        answer: "O ambiente e os genes interagem no desenvolvimento e expressão das características herdadas.",
+        explanation:'Como são gêmeos idênticos, possuem o mesmo patrimônio genético. Dessa forma, a melhor explicação para essas diferenças é que a expressão das características herdadas depende de uma interação entre os genes e o ambiente.',
+      },
+      {
+        question: "A afirmação de que o fenótipo é determinado exclusivamente pelo genótipo está correta?",
+        options: [
+          "Sim, pois o fenótipo nada mais é do que a expressão dos genes.", 
+          "Sim, pois somente os genes podem determinar as características de um indivíduo.", 
+          "Não, pois o fenótipo depende também da interação entre o genótipo e o ambiente.", 
+          "Não, pois o fenótipo também se relaciona com o cariótipo do indivíduo.",
+      ],
+        answer: "Não, pois o fenótipo depende também da interação entre o genótipo e o ambiente.",
+        explanation:'O fenótipo é a manifestação do genótipo do indivíduo, que pode ser influenciada pela interação com o meio.',
+      },
+      {
+        question: "A constituição genetica de um organismo é difinida como:",
+        options: [
+          "fenótipo", 
+          "bactéria", 
+          "rna", 
+          "genotipo",
+          "genes"
+      ],
+        answer: "genotipo",
+        explanation:'O genótipo é definido como a composição genética de um indivíduo, ou seja, o conjunto de todos os genes daquele organismo.',
+      },
+      {
+        question: "(UFMG) Um estudante de 23 anos, doador de sangue tipo universal, é moreno, tem estatura mediana e pesa 85Kg. Todas as alternativas apresentam características hereditárias desse estudante que são influenciadas pelo ambiente, EXCETO",
+        options: [
+          "cor da pele", 
+          "peso", 
+          "altura", 
+          "grupo sanguíneo",
+      ],
+        answer: "grupo sanguíneo",
+        explanation:'O grupo sanguíneo do indivíduo não sofre alteração do ambiente. Já a altura, peso e cor da pele podem sofrer influência do meio.',
+      },
+      
+    ],
+  },
 ];
 
 export default data;

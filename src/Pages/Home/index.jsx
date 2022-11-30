@@ -41,13 +41,13 @@ function Home() {
           <Link to={'/ciclo'}>CICLO CELULAR</Link>
          </li>
          <li>
-          <Link href="">LEIS DE MENDEL</Link>
+          <Link to={'/leis-de-mendel'}>LEIS DE MENDEL</Link>
          </li>
          <li>
-          <Link href="">GENES</Link>
+          <Link to={'/genes'}>GENES</Link>
          </li>
          <li>
-          <Link href="">GENÓTIPO E FENÓTIPO</Link>
+          <Link to={'/genotipo-fenotipo'}>GENÓTIPO E FENÓTIPO</Link>
          </li>
          <li>
           <Link to={'/cromossomos'}>CROMOSSOMOS</Link>
