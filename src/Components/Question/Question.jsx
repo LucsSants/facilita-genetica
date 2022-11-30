@@ -17,7 +17,6 @@ const Question = () => {
     });
   };
 
-  console.log(quizState.optionToHide);
 
   return (
     <div id="question">

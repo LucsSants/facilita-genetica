@@ -78,39 +78,78 @@ const data = [
     ],
   },
   {
-    category: "JavaScript",
+    category: "cromo",
     questions: [
       {
-        question: "O que é Vanilla JavaScript?",
+        question: "(PUC-SP) Na aula de Biologia, o professor fez a seguinte afirmação: “A produção de ribossomos depende, indiretamente, da atividade dos cromossomos”. Em seguida, pediu a seus alunos que analisassem a afirmação e a explicassem. Foram obtidas cinco explicações diferentes, que se encontram a seguir citadas. Assinale a única afirmação correta:",
         options: [
-          "JavaScript puro",
-          "Uma biblioteca JavaScript",
-          "Um framework JavaScript",
-          "Um compilador de JavaScript",
+          "Os cromossomos são constituídos, essencialmente, por RNA ribossômico e proteínas, materiais utilizados na produção de ribossomos.",
+          "Os cromossomos são constituídos, essencialmente, por RNA mensageiro e proteínas, materiais utilizados na produção de ribossomos.",
+          "Os cromossomos contêm DNA; este controla a síntese de ribonucleoproteínasque formarão o nucléolo e que, posteriormente, farão parte dos ribossomos.",
+          "Os cromossomos são constituídos, essencialmente, por RNA transportador eproteínas, materiais utilizados na produção de ribossomos.",
+          "Os cromossomos, produzidos a partir do nucléolo, fornecem material para a organização dos ribossomos.",
         ],
-        answer: "JavaScript puro",
+        answer: "Os cromossomos contêm DNA; este controla a síntese de ribonucleoproteínasque formarão o nucléolo e que, posteriormente, farão parte dos ribossomos.",
+        explanation:"Os cromossomos contêm DNA; este controla a síntese de ribonucleoproteínas que formarão o nucléolo e que, posteriormente, farão parte dos ribossomos.",
       },
       {
-        question: "Com qual instrução declaramos uma constante em JavaScript?",
-        options: ["const", "let", "var", "define"],
-        answer: "const",
+        question: "(UCPel) Podemos dizer que cromossomo é um filamento de cromatina espiralado, visível ao microscópio óptico por ocasião da divisão celular. O conjunto de dados sobre tamanho, forma, número e características dos cromossomos de uma espécie é chamado de:",
+        options: [
+          "Cariótipo.", 
+          "Cromonema.", 
+          "Código genético.", 
+          "Centrômero.",
+          "Cromátide."
+      ],
+        answer: "Cariótipo.",
+        explanation:"Denominamos de cariótipo o conjunto de cromossomos de uma espécie.",
       },
       {
-        question: "Qual dos tipos de dado a seguir não existe em JavaScript?",
-        options: ["string", "number", "boolean", "float"],
-        answer: "float",
+        question: "(UFLA) Na espécie humana, o numero diploide de cromossomos é 46. Quantos cromossomos serão encontrados, respectivamente, nos espermatozoides, óvulos e células epidérmicas?",
+        options: [
+          "23,23,46", 
+          "22,22,46", 
+          "22,22,44", 
+          "23,23,44"
+      ],
+        answer: "23,23,46",
+        explanation:"Como os gametas são haploides, os espermatozoides e óvulos apresentam apenas 23 cromossomos. Já as células epidérmicas são somáticas e, consequentemente, diploides, com 46 cromossomos.",
       },
       {
-        question: "Qual dos métodos a seguir seleciona um elemento?",
-        options: ["querySelector", "parseInt", "sort", "reduce"],
-        answer: "querySelector",
+        question: "(USJ-SC) As estruturas grossas e bem individualizadas, visíveis no núcleo durante o período de divisão celular, são denominadas de:",
+        options: [
+          "cariótipos.", 
+          "cromossomos.", 
+          "nucléolos.", 
+          "cromatina."
+      ],
+        answer: "cromossomos.",
+        explanation:"Os cromossomos são uma sequência de DNA, que contém os genes além de outras informações, estando ele no início da divisão celular, momento no qual está condensando e assim mais grosso.",
       },
       {
-        question:
-          "Qual destas propriedades da a quantidade de elementos de um array?",
-        options: ["qty", "length", "items", "index"],
-        answer: "length",
+        question: "(UFSM) Associe as colunas - COLUNA 1 : 1- genoma 2- gene 3- cromossomo 4- cariótipo - COLUNA 2:( ) segmento de DNA que contém instrução para a formação de uma proteína. ( ) estrutura formada por uma única molécula de DNA, muito longa, associada a proteínas, visível durante a divisão celular. ( ) conjunto de genes de uma espécie.",
+        options: [
+          "1 – 2 – 3.", 
+          "2 – 3 – 1.", 
+          "2 – 4 – 1.", 
+          "3 – 2 – 4.",
+          "3 – 4 - 1."
+      ],
+        answer: "2 – 3 – 1.",
+        explanation:"O material genético pode apresentar diferentes conformações, por conta disto, é dado alguns nomes para definir o estado em que a molécula de DNA se encontra, ou para se referir a alguma estrutura ou porção do código genético. O gene é uma sequência de DNA responsável por sintetizar algum tipo de proteína específica. O conjuntos de genes que formam uma espécie é conhecido como genoma. Cromossomos.Material genético condensado a partir de proteínas chamadas de histonas.",
       },
+      {
+        question: "(UECE) Uma célula humana que contém 22 cromossomos autossomos e um cromossomo Y é um (uma):",
+        options: [
+          "célula somática;", 
+          "óvulo;", 
+          "espermatozóide;", 
+          "zigoto.",
+      ],
+        answer: "espermatozóide;",
+        explanation:"O espermatozoides é a célula humana que contem 22 cromossomos autossomos é um cromossomo y, caracterizando-se como uma célula haploide.As células diploides são as células comuns, as células de qualquer tecido como o conjuntivo, o nervoso, hepático, entre outros. São células com 46 cromossomos cada. As células haploides são células com metade da carga genética, são os gametas sexuais, os espermatozoides e os óvulos, elas possuem apenas 23 cromossomos cada, e quando um gameta masculino encontra um feminino forma uma célula diploide, com 46 cromossomos.",
+      },
+
     ],
   },
 ];

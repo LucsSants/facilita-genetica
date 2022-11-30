@@ -13,7 +13,6 @@ const initialState = {
   optionToHide: null,
 };
 
-console.log(initialState);
 
 const quizReducer = (state, action) => {
   switch (action.type) {
@@ -66,8 +65,6 @@ const quizReducer = (state, action) => {
     }
 
     case "NEW_GAME": {
-      console.log(questions);
-      console.log(initialState);
       return initialState;
     }
 

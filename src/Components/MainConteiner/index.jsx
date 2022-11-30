@@ -9,7 +9,6 @@ function MainContainer(props) {
     </div>
   )
 }
-
  export default MainContainer
 
 
