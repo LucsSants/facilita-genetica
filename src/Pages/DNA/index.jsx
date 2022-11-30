@@ -39,7 +39,7 @@ function DNA() {
         &nbsp;&nbsp;O DNA contêm duas fitas que são constituídas por vários nucleotídeos, esses nucleotídeos se
         ligam uns aos outros através da ligação fosfodiéster. 
         </p>
-        <img src="http://coral.ufsm.br/blg220/hide/acnucl4.jpg" alt="" className='file-img'/>
+        <img src="https://64.media.tumblr.com/c2d17223c55c2537422d414fcc52cfbb/177bccb7beea4f0d-74/s640x960/36eba3e762af99f28837aef2de32885e2e3bb3fe.pnj" alt="" className='file-img'/>
         <p>
         &nbsp;&nbsp;A junção dos nucleotídeos forma uma sequência com repetição na unidade de açúcar-fosfato
         formando a cadeia principal que são ligadas às bases nitrogenadas. Essas ligações acontece entre
@@ -73,7 +73,7 @@ function DNA() {
           <li>adenina (A), guanina (G) que são purinas.</li>
           <li>citosina (C), uracila (U) que são pirimidinas.</li>
         </p>
-        <img src="image.png" alt="" className='file-img'/>
+        <img src="https://static.biologianet.com/conteudo/images/a-molecula-rna-uma-fita-simples-mas-pode-assumir-um-arranjo-tridimensional-57f7bf51767e8.jpg" alt="" className='file-img'/>
 
         <p>Tipos de RNA:</p>
         <li>RNA ribossômico (RNAr)= principal responsável pela síntese de proteínas. </li>
