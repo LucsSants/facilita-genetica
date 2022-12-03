@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useContext, useEffect } from 'react'
 import MainContainer from '../../Components/MainConteiner'
 
 import Cromossomo1 from '../../assets/cromossomos1.png'
@@ -6,10 +6,13 @@ import Cromossomo2 from '../../assets/cromossomos2.png'
 import './index.css'
 
 import Quiz from '../../Components/Quiz/Quiz'
+import { QuizContext } from '../../context/quiz'
 function Cromossomos() {
 
+  const [quizState, dispatch] = useContext(QuizContext);
   useEffect(() => {
     window.scrollTo(0, 0)
+    dispatch({ type: "NEW_GAME" })
   }, [])
   return (
     <>

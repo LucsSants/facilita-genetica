@@ -1,10 +1,13 @@
-import React, { useEffect } from 'react'
+import React, { useContext, useEffect } from 'react'
 import MainContainer from '../../Components/MainConteiner'
 import Quiz from '../../Components/Quiz/Quiz'
+import { QuizContext } from '../../context/quiz';
 function DoenGeneticas() {
 
+  const [quizState, dispatch] = useContext(QuizContext);
   useEffect(() => {
     window.scrollTo(0, 0)
+    dispatch({ type: "NEW_GAME" })
   }, [])
   return (
     <>
