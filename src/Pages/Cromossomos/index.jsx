@@ -7,6 +7,7 @@ import './index.css'
 
 import Quiz from '../../Components/Quiz/Quiz'
 import { QuizContext } from '../../context/quiz'
+import Buttons from '../../Components/Buttons'
 function Cromossomos() {
 
   const [quizState, dispatch] = useContext(QuizContext);
@@ -142,6 +143,8 @@ function Cromossomos() {
       <Quiz category={'cromo'}/>
     </MainContainer>
       
+    <Buttons backLink="/genotipo-fenotipo" backName="Genótipo e Fenótipo" nextLink="/mutacao-genteica" nextName="Mutação Genética"/>
+
     </>
       
   )

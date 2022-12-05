@@ -1,4 +1,5 @@
 import React, { useContext, useEffect } from 'react'
+import Buttons from '../../Components/Buttons';
 import MainContainer from '../../Components/MainConteiner'
 import Quiz from '../../Components/Quiz/Quiz'
 import { QuizContext } from '../../context/quiz';
@@ -61,6 +62,8 @@ function GenoFeno() {
       <h1 className='title'>Quiz Genótipo e Fenótipo</h1>
       <Quiz category={'genofeno'}/>
     </MainContainer>
+
+    <Buttons backLink="/genes" backName="Genes" nextLink="/cromossomos" nextName="Cromossomos"/>
     </>
       
   )

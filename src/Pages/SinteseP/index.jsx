@@ -3,6 +3,7 @@ import MainContainer from '../../Components/MainConteiner'
 import './index.css'
 import Quiz from '../../Components/Quiz/Quiz'
 import { QuizContext } from '../../context/quiz';
+import Buttons from '../../Components/Buttons';
 function SinteseP() {
 
   const [quizState, dispatch] = useContext(QuizContext);
@@ -73,6 +74,8 @@ function SinteseP() {
       <h1 className='title'>Quiz Síntese Proteica</h1>
       <Quiz category={"sintesep"}/>
     </MainContainer>
+
+    <Buttons backLink="/dna" backName="DNA e RNA" nextLink="/ciclo" nextName ="Ciclo Celular"/>
       
     </>
       

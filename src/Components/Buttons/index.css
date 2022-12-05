@@ -1,0 +1,37 @@
+.next-button {
+  padding: 1rem;
+  background-color: #09793D;
+  border-radius: 0.6rem;
+  color: white;
+  text-decoration: none;
+  
+  
+}
+
+.next-button:hover {
+  opacity: 0.8;
+}
+
+.back-button {
+  color: #1D8795;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.span {
+  color: grey;
+  font-size: .7rem;
+}

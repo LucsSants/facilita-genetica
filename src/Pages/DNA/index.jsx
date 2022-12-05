@@ -3,6 +3,7 @@ import MainContainer from '../../Components/MainConteiner'
 import './index.css'
 import Quiz from '../../Components/Quiz/Quiz'
 import { QuizContext } from '../../context/quiz';
+import Buttons from '../../Components/Buttons';
 function DNA() {
 
   const [quizState, dispatch] = useContext(QuizContext);
@@ -24,7 +25,7 @@ function DNA() {
         </ul>
       <img src="https://static.significados.com.br/foto/ponte-de-hidrogenio-1.png" alt="" className='file-img'/>
       <p>
-      &nbsp;&nbsp;As bases nitrogenada possuem anéis que contém átomos de nitrogênio é sai classificadas em dois
+      &nbsp;&nbsp;As bases nitrogenada possuem anéis que contém átomos de nitrogênio e são classificadas em dois
       grupos: pirimidinas é purinas. 
       </p>
       <p>
@@ -95,7 +96,10 @@ function DNA() {
       <h1 className='title'>Quiz DNA e RNA</h1>
       <Quiz category={"DNA"}/>
     </MainContainer>
-      
+
+    
+    <Buttons backLink="/" backName="Inicio" nextLink="/sintese-proteica" nextName ="Síntese Proteica"/>  
+    
     </>
       
   )
