@@ -497,7 +497,7 @@ const data = [
     category: "genofeno",
     questions: [
       {
-        question: "Onde podemos encontrar os genes?",
+        question: "Imagine que você passou uma semana na praia e, ao voltar, notou que  sua pele está mais escura que antes da viagem. Essa coloração ocorreu em decorrência de uma variação em seu:",
         options: [
           "gene.",
           "fenótipo.",
